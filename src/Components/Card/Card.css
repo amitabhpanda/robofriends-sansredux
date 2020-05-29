@@ -1,0 +1,24 @@
+grow {
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.grow:hover,
+.grow:focus {
+  transform: scale(1.05);
+}
+
+
+article{
+	background-color: rgba(180, 247, 141, 0.7);
+}
+
+.custom{
+	height: 500px;
+}
+
+.name{
+	font-family: "Lucida Console", Monaco, monospace;
+}
